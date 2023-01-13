@@ -307,5 +307,6 @@
 "Assets/Scripts/DestroyOutOfBounds.cs"
 "Assets/Scripts/DetectCollisions.cs"
 "Assets/Scripts/MoveFoward.cs"
+"Assets/Scripts/NewBehaviourScript.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SpawnManager.cs"

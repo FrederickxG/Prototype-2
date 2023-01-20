@@ -29,33 +29,7 @@ public class DetectCollisions : MonoBehaviour
         Destroy(gameObject);
           Destroy(other.gameObject);
        }
-        if (other.gameObject.tag == "Animal" && gameObject.tag == "Player")
-        {
-            if (lives>0)
-            {
-                lives -= 1;
-                Debug.Log("Lives = " + lives);
-                Destroy(other.gameObject);
-            }
-            if (lives==0)
-            {
-                Debug.Log("Game Over!");
-                Destroy(gameObject);
-            }
-        }
-        if (other.gameObject.tag == "Animal" && gameObject.tag == "Animal")
-        {
-
-        }
-        if (other.gameObject.tag == "Animal" && gameObject.tag == "Projectile")
-        {
-            score += 1;
-            Debug.Log("Score = " + score);
-            Destroy(gameObject);
-            Destroy(other.gameObject);
-        }
-
-    }
+}
 }
      
  

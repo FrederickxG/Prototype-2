@@ -518,6 +518,18 @@ MonoBehaviour:
   zRange: 10
   projectilePrefab: {fileID: 2097717859637925256, guid: 41f7b166353fe4187a4d502f06d6b522,
     type: 3}
+--- !u!114 &1223910464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223910462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbaaf74ff18f4c409fa69225ebeb0f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1292373031
 GameObject:
   m_ObjectHideFlags: 0
